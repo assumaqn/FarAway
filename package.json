@@ -16,7 +16,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "push": "git add . && git commit -m \"Update\" && git push",
+    "push": "git add . && git commit -m \"$npm_config_message\" && git push",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
